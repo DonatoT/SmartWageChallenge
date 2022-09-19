@@ -1,2 +1,2 @@
 # SmartWageChallenge
-React js - typescript - jason server
+React js - typescript - json server
