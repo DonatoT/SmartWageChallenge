@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container{
+    display: flex;
+}
+
+.sidebar-content{
+     width: 250px; 
+     height: 100vh;
+     background-color: #F7F7F8; 
+     text-align: center;
+     color: #495057;
+     padding-top: 50px;
+     font-weight: 400;
+}
+
+.sidebar-item{
+    color: #495057;
+    font-size: 18px;
+}
+
+.inner-content{
+    width: 100%;
+    margin: 50px;
+}
+
+.inner-content-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dashboard-content{
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: solid 1px #DEE2E6;
+    padding-bottom: 15px;
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  tr:nth-child(even) {
+    background-color: #F7F7F8;
+  }
+  
+  td, th {
+    height: 30PX;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.16px;
+    color: #495057;
+   
+
+  }
+
+  th{
+    border-radius: 8px;
+  }
+
+  .icon-styles{
+    padding-right: 5px;
+  }
+
+  .item-style{
+    height: 20px;
+    line-height: 20px;
+    display: inline-flex;
+  }
+
+  .type-style{
+    padding: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+
+  }
+
+    
+  
+  
