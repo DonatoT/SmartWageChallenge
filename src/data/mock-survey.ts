@@ -78,7 +78,7 @@ export const SURVEYS: Survey[] = [
     surveyName: "Smartwage",
     createdBy: "Donato tchingoua",
     response:"1358/23 975",
-    types: ["Live"],
+    types: ["Close"],
     launchDate: new Date(),
     closedDate: new Date()
    },
@@ -114,7 +114,7 @@ export const SURVEYS: Survey[] = [
     surveyName: "Smartwage",
     createdBy: "Donato tchingoua",
     response:"1358/23 975",
-    types: ["Live"],
+    types: ["Close"],
     launchDate: new Date(),
     closedDate: new Date()
    },

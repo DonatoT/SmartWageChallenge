@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { Menu2 } from 'tabler-icons-react';
 import '../assets/style.css'
+import CardBottom from './Card-bottom';
 
 const Sidebar = () => {
   return (
@@ -11,8 +12,8 @@ const Sidebar = () => {
 			<span> <Menu2 className='icon-styles' size={20} strokeWidth={1}color={'black'}/> </span> 
 			<span> Smartwage </span> 
 		</div>
-	   
 	  </div>
+	  <CardBottom/>
 	</div>
   ) 
 }
